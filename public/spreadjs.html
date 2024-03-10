@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="spreadjs culture" content="zh-cn" />
+    <title>在线 Excel 编辑器 | SpreadJS 在线表格编辑器</title>
+    <link
+        href="./deps/gc.spread.sheets.excel2013white.css"
+        rel="stylesheet" type="text/css" />
+    <link
+        href="./deps/gc.spread.sheets.designer.min.css"
+        rel="stylesheet" type="text/css">
+    <link href="./custom.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div id="gc-designer-container" role="application"> </div>
+    <script type="text/javascript"
+        src="./deps/gc.spread.sheets.all.min.js"></script>
+    <script
+        src="./deps/gc.spread.sheets.charts.min.js"></script>
+    <script
+        src="./deps/gc.spread.sheets.shapes.min.js"></script>
+    <script
+        src="./deps/gc.spread.sheets.slicers.min.js"></script>
+    <script
+        src="./deps/gc.spread.sheets.print.min.js"></script>
+    <script
+        src="./deps/gc.spread.sheets.barcode.min.js"></script>
+    <script
+        src="./deps/gc.spread.sheets.pdf.min.js"></script>
+    <script
+        src="./deps/gc.spread.sheets.formulapanel.min.js"></script>
+    <script
+        src="./deps/gc.spread.excelio.min.js"></script>
+    <script
+        src="./deps/gc.spread.sheets.io.min.js"></script>
+    <script
+        src="./deps/gc.spread.sheets.resources.zh.min.js"></script>
+    <script
+        src="./deps/gc.spread.sheets.designer.resource.cn.min.js"></script>
+    <script
+        src="./deps/gc.spread.sheets.designer.all.min.js"></script>
+
+    <script>
+        window.onload = function () {
+            new GC.Spread.Sheets.Designer.Designer("gc-designer-container");
+        }
+    </script>
+</body>
+
+</html>
